@@ -19,8 +19,8 @@
 
     <!-- Webmanifest + Favicon / App icons -->
     <link rel="manifest" href="/manifest.json">
-    <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
-    <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
+    <link rel="icon" type="image/png" href="<?= PROOT; ?>assets/media/logo/logo.png" sizes="32x32">
+    <link rel="apple-touch-icon" href="<?= PROOT; ?>assets/media/logo/logo.png">
         
     <!-- Theme switcher (color modes) -->
     <script src="<?= PROOT; ?>assets/js/theme-switcher.js"></script>
@@ -31,8 +31,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" id="google-font">
 
     <!-- Vendor styles -->
-    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/simplebar.min.css">
-    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/aos.css">
+    <!-- <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/simplebar.min.css"> -->
+    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/aos.css"> 
+
+	<link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/swiper-bundle.min.css">
+	<link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/lightgallery-bundle.min.css">
 
     <!-- Font icons -->
     <link rel="stylesheet" href="<?= PROOT; ?>assets/css/around-icons.min.css">
@@ -183,128 +186,111 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- Page wrapper -->
     <main class="page-wrapper">
 
-      <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page -->
-      <header class="navbar navbar-expand-lg fixed-top">
+    <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page -->
+    <header class="navbar navbar-expand-lg fixed-top">
         <div class="container">
 
-          <!-- Navbar brand (Logo) -->
-          <a class="navbar-brand pe-sm-3" href="index.html">
-            <span class="text-primary flex-shrink-0 me-2">
-              <svg width="35" height="32" viewBox="0 0 36 33" xmlns="http://www.w3.org/2000/svg">
-                <img src="<?= PROOT; ?>assets/media/logo/" />
-            </span>
-            Peekaf
-          </a>
+			<!-- Navbar brand (Logo) -->
+			<a class="navbar-brand pe-sm-3" href="index.html">
+				<span class="text-primary flex-shrink-0 me-2">
+					<img src="<?= PROOT; ?>assets/media/logo/logo.png" width="35" height="32" />
+				</span>
+				Pee Kaf
+			</a>
 
-          <!-- Theme switcher -->
-          <div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto" data-bs-toggle="mode">
-            <input class="form-check-input" type="checkbox" id="theme-mode">
-            <label class="form-check-label" for="theme-mode">
-              <i class="ai-sun fs-lg"></i>
-            </label>
-            <label class="form-check-label" for="theme-mode">
-              <i class="ai-moon fs-lg"></i>
-            </label>
-          </div>
+			<!-- Theme switcher -->
+			<div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto" data-bs-toggle="mode">
+				<input class="form-check-input" type="checkbox" id="theme-mode">
+				<label class="form-check-label" for="theme-mode">
+					<i class="ai-sun fs-lg"></i>
+				</label>
+				<label class="form-check-label" for="theme-mode">
+					<i class="ai-moon fs-lg"></i>
+				</label>
+			</div>
 
-          <a class="btn btn-danger btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="" target="_blank" rel="noopener">
-            <i class="ai-cart fs-xl me-2 ms-n1"></i>
-            Store
-          </a>
+			<a class="btn btn-danger btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="" rel="noopener">
+				<i class="ai-cart fs-xl me-2 ms-n1"></i>
+				Store
+			</a>
 
-          <!-- Mobile menu toggler (Hamburger) -->
-          <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+			<!-- Mobile menu toggler (Hamburger) -->
+			<button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-          <!-- Navbar collapse (Main navigation) -->
-          <nav class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
-              
-              <li class="nav-item">
-                <a class="nav-link" href="components/typography.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="docs/getting-started.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="docs/getting-started.html">About us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="docs/getting-started.html">Contact us</a>
-              </li>
-            </ul>
-            <div class="d-sm-none p-3 mt-n3">
-              <a class="btn btn-danger w-100 mb-1" href="" target="_blank" rel="noopener">
-                <i class="ai-cart fs-xl me-2 ms-n1"></i>
-                Store
-              </a>
-            </div>
-          </nav>
-        </div>
-      </header>
+			<!-- Navbar collapse (Main navigation) -->
+			<nav class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
+					<li class="nav-item">
+						<a class="nav-link" href="components/typography.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="docs/getting-started.html">Services</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="docs/getting-started.html">About us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="docs/getting-started.html">Contact us</a>
+					</li>
+				</ul>
+				<div class="d-sm-none p-3 mt-n3">
+					<a class="btn btn-danger w-100 mb-1" href="" target="_blank" rel="noopener">
+						<i class="ai-cart fs-xl me-2 ms-n1"></i>
+						Store
+					</a>
+				</div>
+			</nav>
+		</div>
+	</header>
 
+	<!-- Hero slider -->
+	<section class="position-relative min-vh-100 py-5" data-bs-theme="light">
 
-      <!-- Hero -->
-      <section class="position-relative pt-md-2 pt-lg-4 pt-xl-5 pb-5 pb-lg-0">
-        <div class="position-absolute top-0 start-0 w-100 bg-secondary d-none d-lg-block" style="height: 792px; margin: -1px 0 0 -1px; background-size: 75px 75px; background-image: linear-gradient(to right, var(--ar-gray-200) 1px, transparent 1px), linear-gradient(to bottom, var(--ar-gray-200) 1px, transparent 1px);"></div>
-        <div class="position-absolute top-0 start-0 w-100 h-100 bg-secondary d-lg-none" style="margin: -1px 0 0 -1px; background-size: 75px 75px; background-image: linear-gradient(to right, var(--ar-gray-200) 1px, transparent 1px), linear-gradient(to bottom, var(--ar-gray-200) 1px, transparent 1px);"></div>
-        <div class="container position-relative z-2 pt-5 pb-2 pb-sm-3 pb-lg-0">
-          <div class="text-center py-5 mt-3 mt-sm-4 mb-md-3 mb-lg-4 mb-xl-5 mx-auto">
-            <h1 class="display-3 pb-1 pb-sm-2 pb-md-3">Focus locally, reach globally. Importation, Exportation, and Manufacturing.</h1>
-            <p class="fs-lg mb-0">Your trusted ally in seamless global trade and manufacturing.</p>
-          </div>
+		<!-- Background image slider -->
+		<div class="swiper swiper-scale-effect position-absolute top-0 start-0 w-100 h-100" data-swiper-options='{
+			"effect": "fade",
+			"speed": 800,
+			"autoplay": {
+				"delay": 7000,
+				"disableOnInteraction": false
+			},
+			"pagination": {
+				"el": ".swiper-pagination",
+				"clickable": true
+			}
+			}'>
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+				<div class="swiper-slide-cover bg-position-top-center" style="background-image: url(assets/media/bg-1.jpg);"></div>
+				</div>
+				<div class="swiper-slide">
+				<div class="swiper-slide-cover bg-position-top-center" style="background-image: url(assets/media/bg-2.jpg);"></div>
+				</div>
+				<div class="swiper-slide">
+				<div class="swiper-slide-cover bg-position-top-center" style="background-image: url(assets/media/bg-3.jpg);"></div>
+				</div>
+			</div>
+			<div class="swiper-pagination mb-4"></div>
+		</div>
 
-          <!-- Google reviews (visible on screens > 768px) -->
-          <div class="position-relative d-none d-md-block">
-            <div class="position-absolute" style="right: 78.24%;">
-              <img class="position-relative z-2" src="assets/img/landing/insurance/hero/google-reviews.png" width="282" alt="Google reviews">
-              <div class="position-absolute top-0 start-0 w-100 h-100 bg-light rounded-3 shadow-sm d-dark-mode-none"></div>
-              <div class="position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block" style="background-color: #202327;"></div>
-            </div>
-          </div>
-          
-          <!-- Parallax image -->
-          <div class="jarallax rounded overflow-hidden z-2" data-jarallax data-speed="0.65" style="-webkit-clip-path: url(#shape); clip-path: url(#shape);">
-            <div class="d-none d-md-block ratio ratio-21x9"></div>
-            <div class="d-md-none ratio ratio-16x9"></div>
-            <svg class="d-none d-md-block" width="0" height="0" viewBox="0 0 1296 506">
-              <defs>
-                <clipPath id="shape" clipPathUnits="objectBoundingBox" transform="scale(0.0007716049383, 0.001976284585)">
-                  <path d="M18 110H288C297.941 110 306 101.941 306 92V18C306 8.05887 314.059 0 324 0H1278C1287.94 0 1296 8.05888 1296 18V378C1296 387.941 1287.94 396 1278 396H1008C998.059 396 990 404.059 990 414V488C990 497.941 981.941 506 972 506H18C8.05887 506 0 497.941 0 488V128C0 118.059 8.05887 110 18 110Z"/>
-                </clipPath>
-              </defs>
-            </svg>
-            <img class="position-absolute top-0 end-0 z-2 mt-4 me-4" src="assets/img/landing/insurance/hero/award.png" width="132" alt="Award">
-            <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></span>
-            <div class="jarallax-img" style="background-image: url(<?= PROOT; ?>assets/media/bg-4.jpg);"></div>
-          </div>
-
-          <!-- Clients (visible on screens > 768px) -->
-          <div class="position-absolute bottom-0 d-none d-md-block" style="left: 77.5%;">
-            <img class="position-relative z-2 d-dark-mode-none" src="assets/img/landing/insurance/hero/clients-light.png" width="282" alt="Google reviews">
-            <img class="position-relative z-2 d-none d-dark-mode-block" src="assets/img/landing/insurance/hero/clients-dark.png" width="282" alt="Google reviews">
-            <div class="position-absolute top-0 start-0 w-100 h-100 bg-light rounded-3 shadow-sm d-dark-mode-none"></div>
-            <div class="position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block" style="background-color: #202327;"></div>
-          </div>
-
-          <!-- Google reviews + Clients (visible on screens < 768px) -->
-          <div class="d-flex flex-column flex-sm-row gap-3 pt-3 d-md-none">
-            <div class="position-relative d-flex justify-content-center w-100">
-              <img class="position-relative z-2" src="assets/img/landing/insurance/hero/google-reviews.png" width="282" alt="Google reviews">
-              <div class="position-absolute top-0 start-0 w-100 h-100 bg-light rounded-3 shadow-sm d-dark-mode-none"></div>
-              <div class="position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block" style="background-color: #202327;"></div>
-            </div>
-            <div class="position-relative d-flex justify-content-center w-100">
-              <img class="position-relative z-2 d-dark-mode-none" src="assets/img/landing/insurance/hero/clients-light.png" width="282" alt="Google reviews">
-              <img class="position-relative z-2 d-none d-dark-mode-block" src="assets/img/landing/insurance/hero/clients-dark.png" width="282" alt="Google reviews">
-              <div class="position-absolute top-0 start-0 w-100 h-100 bg-light rounded-3 shadow-sm d-dark-mode-none"></div>
-              <div class="position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block" style="background-color: #202327;"></div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+		<!-- Content -->
+		<div class="container position-relative z-2 py-lg-3 py-xl-5 my-5">
+			<div class="row pt-md-3 py-xxl-5 my-5">
+				<div class="col py-5 mb-md-4 mb-lg-5">
+					<h1 class="display-1 text-uppercase mb-4 text-danger">Pee Kaf</h1>
+					<p class="d-block text-light fs-xl pb-2 mb-4 mb-md-5 text-danger" style="max-width: 500px;">Your trusted ally in seamless global trade and manufacturing. Focus locally, reach globally. </p>
+					<div class="position-relative d-inline-flex align-items-center">
+						<a class="btn btn-icon btn-lg btn-danger rounded-circle stretched-link" href="javascript:;">
+							<i class="ai-phone"></i>
+						</a>
+						<span class="text-light fs-lg fw-semibold ms-3">Contacts us</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
       
       <!-- Partners -->
       <section class="container py-5 my-lg-3 my-xl-4 my-xxl-5">
@@ -346,7 +332,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <h3 class="h5 ms-3 mb-0">Manufacturing</h3>
             </div>
-            <p class="fs-sm">Gaining access to a comprehensive suite of insurance products, it saves you time and effort by managing all your insurance needs under one roof.</p>
+            <p class="fs-sm">We produce premium-grade vegetable oil and rice, ensuring excellence from production to packaging.</p>
           </div>
           <div class="col-sm-6 col-lg-4">
             <div class="d-flex align-items-center mb-3">
@@ -357,7 +343,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <h3 class="h5 ms-3 mb-0">Import</h3>
             </div>
-            <p class="fs-sm">We offer attractive discounts and benefits when you bundle multiple insurance lines with us. Enjoy cost savings while ensuring comprehensive coverage for your well-being, your vehicle, and your adventures.</p>
+            <p class="fs-sm">Sourcing the finest varieties of rice and vegetable oil globally to meet the diverse needs of our customers.</p>
           </div>
           <div class="col-sm-6 col-lg-4">
             <div class="d-flex align-items-center mb-3">
@@ -368,7 +354,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               </div>
               <h3 class="h5 ms-3 mb-0">Export</h3>
             </div>
-            <p class="fs-sm">We have a proven track record of financial stability and commitment to customer satisfaction. Our experience and expertise ensure that you receive reliable coverage and support.</p>
+            <p class="fs-sm">Sharing Ghana's quality products with the world by exporting our vegetable oil and rice to international markets.</p>
           </div>
         </div>
       </section>
@@ -697,22 +683,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Back to top button -->
     <a class="btn-scroll-top" href="#top" data-scroll aria-label="Scroll back to top">
-      <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-        <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></circle>
-      </svg>
-      <i class="ai-arrow-up"></i>
+    	<svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        	<circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10"></circle>
+      	</svg>
+      	<i class="ai-arrow-up"></i>
     </a>
 
-
-    <!-- Vendor scripts: JS libraries and plugins -->
-    <script src="assets/vendor/jarallax/dist/jarallax.min.js"></script>
-    <script src="assets/vendor/simplebar/dist/simplebar.min.js"></script>
-    <script src="assets/vendor/aos/dist/aos.js"></script>
+	<script src="<?= PROOT; ?>assets/js/swiper-bundle.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/lightgallery.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/lg-video.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/aos.js"></script>
+	
 
     <!-- Bootstrap + Theme scripts -->
-    <script src="assets/js/theme.min.js"></script>
+    <script src="<?= PROOT; ?>assets/js/theme.min.js"></script>
 
     <!-- Customizer -->
-    <script src="assets/js/customizer.min.js"></script>
+	<script src="<?= PROOT; ?>assets/js/customizer.min.js"></script>
   </body>
 </html>
