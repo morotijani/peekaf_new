@@ -15,7 +15,7 @@
 	session_start();
 	date_default_timezone_set("Africa/Accra");
 
-	require_once ($_SERVER['DOCUMENT_ROOT'] . '/peekaf/config.php');
+	require_once ($_SERVER['DOCUMENT_ROOT'] . '/peekaf_new/config.php');
     require_once (BASEURL . 'helpers/helpers.php');
     require_once (BASEURL . 'helpers/functions.php');
 

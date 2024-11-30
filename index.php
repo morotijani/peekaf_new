@@ -1,7 +1,11 @@
+<?php
 
+  require_once ('db_connection/conn.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="light">
-  <head>
+<head>
     <meta charset="utf-8">
 
     <!-- Viewport -->
@@ -19,7 +23,7 @@
     <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
         
     <!-- Theme switcher (color modes) -->
-    <script src="assets/js/theme-switcher.js"></script>
+    <script src="<?= PROOT; ?>assets/js/theme-switcher.js"></script>
 
     <!-- Import Google font (Inter) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -27,14 +31,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet" id="google-font">
 
     <!-- Vendor styles -->
-    <link rel="stylesheet" media="screen" href="assets/vendor/simplebar/dist/simplebar.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/aos/dist/aos.css">
+    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/simplebar.min.css">
+    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/aos.css">
 
     <!-- Font icons -->
-    <link rel="stylesheet" href="assets/icons/around-icons.min.css">
+    <link rel="stylesheet" href="<?= PROOT; ?>assets/css/around-icons.min.css">
 
     <!-- Theme styles + Bootstrap -->
-    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/theme.min.css">
 
     <!-- Customizer generated styles -->
     <style id="customizer-styles"></style>
@@ -142,23 +146,21 @@
     </script>
 
     <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-WKV3GT5');
-    </script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGLSZJD5');</script>
+<!-- End Google Tag Manager -->
   </head>
 
 
   <!-- Body -->
   <body>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe src="//www.googletagmanager.com/ns.html?id=GTM-WKV3GT5" height="0" width="0" style="display: none; visibility: hidden;" title="Google Tag Manager"></iframe>
-    </noscript>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGLSZJD5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
     <!-- Page loading spinner -->
@@ -629,7 +631,7 @@
             </svg>
             <img class="position-absolute top-0 end-0 z-2 mt-4 me-4" src="assets/img/landing/insurance/hero/award.png" width="132" alt="Award">
             <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25"></span>
-            <div class="jarallax-img" style="background-image: url(assets/img/landing/insurance/hero/bg-image.jpg);"></div>
+            <div class="jarallax-img" style="background-image: url(<?= PROOT; ?>assets/media/bg-1.jpg);"></div>
           </div>
 
           <!-- Clients (visible on screens > 768px) -->
