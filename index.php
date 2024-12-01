@@ -187,7 +187,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <main class="page-wrapper">
 
 		<!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page -->
-		<header class="navbar navbar-expand-lg fixed-top">
+		<header class="navbar navbar-expand-lg fixed-top" data-bs-theme="light">
 			<div class="container">
 
 				<!-- Navbar brand (Logo) -->
