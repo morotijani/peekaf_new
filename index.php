@@ -210,8 +210,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</div>
 
 				<a class="btn btn-danger btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="" rel="noopener">
-					<i class="ai-cart fs-xl me-2 ms-n1"></i>
-					Store
+					Lets work together
 				</a>
 
 				<!-- Mobile menu toggler (Hamburger) -->
@@ -223,22 +222,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<nav class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
 						<li class="nav-item">
-							<a class="nav-link" href="components/typography.html">Home</a>
+							<a class="nav-link" href="<?= PROOT; ?>">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="docs/getting-started.html">Services</a>
+							<a class="nav-link" href="<?= PROOT; ?>services">Services</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="docs/getting-started.html">About us</a>
+							<a class="nav-link" href="<?= PROOT; ?>products">Products</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="docs/getting-started.html">Contact us</a>
+							<a class="nav-link" href="<?= PROOT; ?>about-us">About us</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?= PROOT; ?>contact-us">Contact us</a>
 						</li>
 					</ul>
 					<div class="d-sm-none p-3 mt-n3">
-						<a class="btn btn-danger w-100 mb-1" href="" target="_blank" rel="noopener">
-							<i class="ai-cart fs-xl me-2 ms-n1"></i>
-							Store
+						<a class="btn btn-danger w-100 mb-1" href="" target="" rel="noopener">
+							Lets work together
 						</a>
 					</div>
 				</nav>
@@ -279,8 +280,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="container position-relative z-2 py-lg-3 py-xl-5 my-5">
 				<div class="row pt-md-3 py-xxl-5 my-5">
 					<div class="col py-5 mb-md-4 mb-lg-5">
-						<h1 class="display-1 text-uppercase mb-4" style="width: fit-content; background-color: #6d181585; border-radius: 5px;">Pee Kaf</h1>
-						<p class="d-block text-light fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px; border-radius: 5px; padding: 5px; background-color: #95a9bb8f;">Your trusted ally in seamless global trade and manufacturing. Focus locally, reach globally. </p>
+						<!-- <h1 class="display-1 text-uppercase mb-4" style="width: fit-content; background-color: #6d181585; border-radius: 5px;">Extend — your reach</h1> -->
+						<h1 class="display-1 text-uppercase mb-4" style=" text-shadow: 4px 4px 4px tomato">Extend — your reach</h1>
+						<!-- <p class="d-block text-light fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px; border-radius: 5px; padding: 5px; background-color: #95a9bb8f;">Your trusted ally in seamless global trade and manufacturing. Focus locally, reach globally. </p> -->
+						<p class="d-block text-light fs-xl pb-2 mb-4 mb-md-5" style="max-width: 500px; text-shadow: 4px 4px 4px #000">Your trusted ally in seamless global trade and manufacturing. Focus locally, reach globally. </p>
 						<div class="position-relative d-inline-flex align-items-center">
 							<a class="btn btn-icon btn-lg btn-danger rounded-circle stretched-link" href="javascript:;">
 								<i class="ai-phone"></i>
@@ -489,8 +492,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			<div class="position-relative bg-size-cover bg-position-center rounded-3 py-5" style="background-image: url(<?= PROOT; ?>assets/media/bg-7.jpeg);">
 			<span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 rounded-3"></span>
 				<div class="row position-relative z-2 py-md-4 py-lg-5 my-2">
-					<div class="col-8 col-sm-6 col-md-5 col-lg-4 col-xxl-3 offset-1">
-						<h2 class="h1 text-white pb-2 pb-sm-3">See how much you can save</h2>
+					<div class="col-8 col-sm-6 col-md-6 col-lg-5 col-xxl-4 offset-1">
+						<h2 class="h1 text-white pb-2 pb-sm-3">Less overhead, more collaboration</h2>
 						<a class="btn btn-danger" href="<?= PROOT; ?>get-a-quote">Get a quote now</a>
 					</div>
 				</div>
@@ -615,19 +618,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 						</a>
 						<p class="mb-4 pb-lg-3 fs-xs text-body-secondary" style="max-width: 306px;">Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus laoreet sem adipiscing sollicitudin erat massa tellus lorem enim aenean phasellus in hendrerit</p>
 						<div class="mt-n3 ms-n3">
-							<a class="btn btn-secondary btn-icon btn-sm btn-facebook rounded-circle mt-3 ms-3" href="#" aria-label="Facebook">
+							<a class="btn btn-secondary btn-icon btn-sm btn-facebook rounded-circle mt-3 ms-3" href="https://web.facebook.com/peekaf" aria-label="Facebook">
 								<i class="ai-facebook"></i>
 							</a>
 							<a class="btn btn-secondary btn-icon btn-sm btn-linkedin rounded-circle mt-3 ms-3" href="#" aria-label="LinkedIn">
 								<i class="ai-linkedin"></i>
 							</a>
-							<a class="btn btn-secondary btn-icon btn-sm btn-x rounded-circle mt-3 ms-3" href="#" aria-label="X">
+							<a class="btn btn-secondary btn-icon btn-sm btn-x rounded-circle mt-3 ms-3" href="https://x.com/peekafghana" aria-label="X">
 								<i class="ai-x"></i>
 							</a>
-							<a class="btn btn-secondary btn-icon btn-sm btn-youtube rounded-circle mt-3 ms-3" href="#" aria-label="X">
+							<a class="btn btn-secondary btn-icon btn-sm btn-youtube rounded-circle mt-3 ms-3" href="https://www.youtube.com/@peekafghana" aria-label="X">
 								<i class="ai-youtube"></i>
 							</a>
-							<a class="btn btn-secondary btn-icon btn-sm btn-tiktok rounded-circle mt-3 ms-3" href="#" aria-label="X">
+							<a class="btn btn-secondary btn-icon btn-sm btn-tiktok rounded-circle mt-3 ms-3" href="https://tiktok.com/@peekafghana" aria-label="X">
 								<i class="ai-tiktok"></i>
 							</a>
 						</div>
