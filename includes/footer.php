@@ -1,3 +1,4 @@
+
 <!-- Footer -->
 <footer class="footer">
     	<div class="bg-primary py-4" data-bs-theme="dark">
@@ -125,5 +126,5 @@
 
     <!-- Customizer -->
 	<script src="<?= PROOT; ?>assets/js/customizer.min.js"></script>
-  </body>
+</body>
 </html>
