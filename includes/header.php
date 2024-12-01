@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
     
     <!-- SEO meta tags -->
-    <title>Peekaf Company Limited</title>
+    <title><?= $title . ' | '; ?>Peekaf Company Limited</title>
     <meta name="description" content="Peekaf - Export, Import, Manufacturing. Rice and Vegetable oil">
     <meta name="keywords" content="export, import, rice, cooking oil, oil, vegetable oil, peekaf, e-commerce, jasmine rice, basmati rice, time daso rice, vegetable, shop, importexport, buy, sell, ghana, westafrica, asia, vilaconic, exportimport, shipment, shipping, country, manufacturing">
     <meta name="author" content="Peekaf IT Department">
