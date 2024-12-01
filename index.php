@@ -369,26 +369,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</p>
 							<ul class="list-unstyled mb-4 mb-xl-5">
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Vegetable Oil Production:
 									<br>
 									Our oils are carefully processed using advanced techniques to preserve nutrients and maintain purity. These oils are ideal for cooking, frying, and other culinary uses, ensuring both health and taste.
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Rice Processing:
 									<br>
 									Peekaf processes various rice varieties, including premium basmati and long-grain rice, ensuring consistency, aroma, and taste. We use cutting-edge machinery to clean, mill, and package rice, guaranteeing freshness and quality.
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Commitment to Quality:
 									<br>
 									Every product is thoroughly tested and packaged to meet both local and international food safety standards.
 								</li>
 							</ul>
 							<div class="mt-auto">
-								<a class="btn btn-outline-primary" href="<?= PROOT; ?>manufacturing">Learn more</a>
+								<a class="btn btn-outline-danger" href="<?= PROOT; ?>manufacturing">Learn more</a>
 							</div>
 						</div>
 					</div>
@@ -418,20 +418,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h5>Why Import with Peekaf?</h5>
 							<ul class="list-unstyled mb-4 mb-xl-5">
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Strong global partnerships
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Consistent product availability
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Competitive pricing
 								</li>
 							</ul>
 							<div class="mt-auto">
-								<a class="btn btn-outline-primary" href="<?= PROOT; ?>importation">Learn more</a>
+								<a class="btn btn-outline-danger" href="<?= PROOT; ?>importation">Learn more</a>
 							</div>
 						</div>
 					</div>
@@ -463,20 +463,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<h5>Export Highlights:</h5>
 							<ul class="list-unstyled mb-4 mb-xl-5">
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Adherence to international trade and food safety standards
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Efficient logistics for timely delivery
 								</li>
 								<li class="d-flex pb-2 mb-1">
-									<span class="bg-primary mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+									<span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
 									Strengthening global partnerships with reliable supply chains
 								</li>
 							</ul>
 							<div class="mt-auto">
-								<a class="btn btn-outline-primary" href="<?= PROOT; ?>exportation">Learn more</a>
+								<a class="btn btn-outline-danger" href="<?= PROOT; ?>exportation">Learn more</a>
 							</div>
 						</div>
 					</div>
@@ -504,8 +504,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="col-sm-9 col-md-4 col-lg-5 mb-5 mb-md-0">
 					<div class="position-relative mb-sm-2">
 						<div class="position-absolute top-0" style="right: 37.26%;">
-							<img class="position-relative z-2 d-dark-mode-none" src="assets/img/landing/insurance/faq/staff-light.png" width="330" alt="Support staff">
-							<img class="position-relative z-2 d-none d-dark-mode-block" src="assets/img/landing/insurance/faq/staff-dark.png" width="330" alt="Support staff">
+							<img class="position-relative z-2 d-dark-mode-none" src="<?= PROOT; ?>assets/media/staff-light.png" width="330" alt="Support staff">
+							<img class="position-relative z-2 d-none d-dark-mode-block" src="<?= PROOT; ?>assets/media/staff-dark.png" width="330" alt="Support staff">
 							<div class="position-absolute top-0 start-0 w-100 h-100 bg-light rounded-3 shadow-sm d-dark-mode-none"></div>
 							<div class="position-absolute top-0 start-0 w-100 h-100 rounded-3 d-none d-dark-mode-block" style="background-color: #202327;"></div>
 						</div>
@@ -520,7 +520,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					</div>
 					<h3 class="h5">Don't see the answer you need?</h3>
 					<p class="mb-sm-4">That's ok. Just drop a message and we will get back to you ASAP.</p>
-					<a class="btn btn-primary" href="#">Contact us</a>
+					<a class="btn btn-danger" href="#">Contact us</a>
 				</div>
 				<div class="col-md-8 col-lg-7">
 					<div class="ps-md-3 ps-lg-4 ps-xl-5">
