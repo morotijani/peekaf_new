@@ -370,7 +370,7 @@
 		</section>
 
 <?php
-
+	$f = 'foot';
 	include ("includes/footer.php");
 
 ?>
