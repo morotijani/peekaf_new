@@ -46,58 +46,58 @@
 										<a class="nav-link p-0" href="<?= PROOT; ?>about-us">About us</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Contact us</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>contact-us">Contact us</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">FAQ</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>faq">FAQ</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Latest news</a>
-									</li>
-								</ul>
-							</div>
-							<div class="col">
-								<ul class="nav flex-column mb-0">
-									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Manufacturing</a>
-									</li>
-									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Exportation</a>
-									</li>
-									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Importation</a>
-									</li>
-									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Products</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>news">Latest news</a>
 									</li>
 								</ul>
 							</div>
 							<div class="col">
 								<ul class="nav flex-column mb-0">
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Licensing</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>manufacturing#">Manufacturing</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Privacy policy</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>exportation#">Exportation</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="#">Terms of use</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>importation#">Importation</a>
+									</li>
+									<li class="nav-item mb-2">
+										<a class="nav-link p-0" href="<?= PROOT; ?>products">Products</a>
 									</li>
 								</ul>
 							</div>
 							<div class="col">
 								<ul class="nav flex-column mb-0">
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="tel:+15262200444">+&nbsp;1&nbsp;526&nbsp;220&nbsp;0444</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>licensing">Licensing</a>
+									</li>
+									<li class="nav-item mb-2">
+										<a class="nav-link p-0" href="<?= PROOT; ?>privacy-policy">Privacy policy</a>
+									</li>
+									<li class="nav-item mb-2">
+										<a class="nav-link p-0" href="<?= PROOT; ?>terms">Terms of use</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col">
+								<ul class="nav flex-column mb-0">
+									<li class="nav-item mb-2">
+										<a class="nav-link p-0" href="tel:+233">+&nbsp;1&nbsp;526&nbsp;220&nbsp;0444</a>
 									</li>
 									<li class="nav-item mb-2">
 										<a class="nav-link p-0" href="tel:+15262200444">+&nbsp;1&nbsp;526&nbsp;220&nbsp;0000</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="mailto:email@example.com">info@peekad.com</a>
+										<a class="nav-link p-0" href="mailto:info@peekaf.com">info@peekaf.com</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="mailto:email@example.com">contact-us@peekad.com</a>
+										<a class="nav-link p-0" href="mailto:contact-us@peekaf.com">contact-us@peekad.com</a>
 									</li>
 								</ul>
 							</div>
