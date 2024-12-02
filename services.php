@@ -11,13 +11,13 @@
 	<!-- Hero -->
     <section class="jarallax bg-dark py-5" data-jarallax data-speed="0.6" data-bs-theme="dark">
         <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-60"></div>
-            <div class="jarallax-img" style="background-image: url(assets/img/services/v3/hero-bg.jpg);"></div>
+            <div class="jarallax-img" style="background-image: url(<?= PROOT; ?>assets/media/service-2.jpeg);"></div>
             <div class="container position-relative z-2 pt-5 pb-md-2 pb-lg-3 pb-xl-4 pb-xxl-5">
 
                 <!-- Breadcrumb -->
                 <nav aria-label="breadcrumb">
                     <ol class="pt-lg-3 mb-0 breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="<?= PROOT; ?>">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Services</li>
                     </ol>
                 </nav>
