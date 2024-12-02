@@ -83,7 +83,7 @@
         <!-- Item -->
         <div class="row align-items-center py-4 py-xl-5 my-2">
             <div class="col-md-6 offset-xl-1 order-md-2 pb-2 mb-4 mb-md-0">
-                <img class="rounded-5" src="assets/img/services/v3/01.jpg" alt="Image">
+                <img class="rounded-5" src="<?= PROOT; ?>assets/media/bg-6.jpeg" alt="Image">
             </div>
             <div class="col-md-6 col-xl-5 order-md-1">
                 <div class="pe-md-4 pe-xl-0">
@@ -113,7 +113,7 @@
 
         <!-- Item -->
         <div class="row align-items-center py-4 py-xl-5 my-2">
-            <div class="col-md-6 pb-2 mb-4 mb-md-0"><img class="rounded-5" src="assets/img/services/v3/02.jpg" alt="Image"></div>
+            <div class="col-md-6 pb-2 mb-4 mb-md-0"><img class="rounded-5" src="<?= PROOT; ?>assets/media/bg-4.jpg" alt="Image"></div>
             <div class="col-md-6 col-xl-5 offset-xl-1">
                 <div class="ps-md-4 pe-xl-0">
                     <h2 class="h1 pb-2 pb-lg-3">Importation</h2>
@@ -137,7 +137,7 @@
         <!-- Item -->
         <div class="row align-items-center py-4 py-xl-5 my-2">
             <div class="col-md-6 offset-xl-1 order-md-2 pb-2 mb-4 mb-md-0">
-                <img class="rounded-5" src="assets/img/services/v3/03.jpg" alt="Image">
+                <img class="rounded-5" src="<?= PROOT; ?>assets/media/bg-3.jpg" alt="Image">
             </div>
             <div class="col-md-6 col-xl-5 order-md-1">
                 <div class="pe-md-4 pe-xl-0">
@@ -167,39 +167,43 @@
     </section>
 
 
-<!-- Partners -->
-<section class="container pt-2 pt-sm-0">
-<h2 class="h1 text-center">We partner with more than 60 brands</h2>
-<p class="text-center pb-2 pb-sm-3">Clients who have become our friends for many years</p>
-<div class="row row-cols-3 row-cols-md-4 g-2 g-md-4">
-  <div class="col">
-    <img class="d-block mx-auto" src="assets/img/brands/auchan.svg" width="220" alt="Auchan">
-  </div>
-  <div class="col">
-    <img class="d-block mx-auto" src="assets/img/brands/suzuki.svg" width="220" alt="Suzuki">
-  </div>
-  <div class="col">
-    <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/champion-dark.svg" width="220" alt="Champion">
-    <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/champion-light.svg" width="220" alt="Champion">
-  </div>
-  <div class="col">
-    <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/starcraft-dark.svg" width="220" alt="Starcraft">
-    <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/starcraft-light.svg" width="220" alt="Starcraft">
-  </div>
-  <div class="col">
-    <img class="d-block mx-auto" src="assets/img/brands/klinos.svg" width="220" alt="Klinos"></div>
-  <div class="col">
-    <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/puma-dark.svg" width="220" alt="Puma">
-    <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/puma-light.svg" width="220" alt="Puma">
-  </div>
-  <div class="col">
-    <img class="d-block mx-auto" src="assets/img/brands/airbnb.svg" width="220" alt="Airbnb">
-  </div>
-  <div class="col">
-    <img class="d-block mx-auto" src="assets/img/brands/philips.svg" width="220" alt="Philips">
-  </div>
-</div>
-</section>
+    <!-- Partners -->
+    <section class="container pt-2 pt-sm-0">
+        <h2 class="h1 text-center">We partner with more than 60 brands</h2>
+        <p class="text-center pb-2 pb-sm-3">Clients who have become our friends for many years</p>
+        <div class="row row-cols-3 row-cols-md-4 g-2 g-md-4">
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Auchan">
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+                <!-- <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/champion-dark.svg" width="220" alt="Champion">
+                <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/champion-light.svg" width="220" alt="Champion"> -->
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+                <!-- <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/starcraft-dark.svg" width="220" alt="Starcraft">
+                <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/starcraft-light.svg" width="220" alt="Starcraft"> -->
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+                <!-- <img class="d-block d-dark-mode-none mx-auto" src="assets/img/brands/puma-dark.svg" width="220" alt="Puma">
+                <img class="d-none d-dark-mode-block mx-auto" src="assets/img/brands/puma-light.svg" width="220" alt="Puma"> -->
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+            </div>
+            <div class="col">
+                <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Suzuki">
+            </div>
+        </div>
+    </section>
 
 	
 
