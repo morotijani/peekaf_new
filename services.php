@@ -188,8 +188,8 @@
 
     <!-- Partners -->
     <section class="container pt-2 pt-sm-0 pb-xl-5">
-        <h2 class="h1 text-center">We partner with more than 60 brands</h2>
-        <p class="text-center pb-2 pb-sm-3">Clients who have become our friends for many years</p>
+        <h2 class="h1 text-center">We partner with more than 10 Companies</h2>
+        <p class="text-center pb-2 pb-sm-3">The business the world trust.</p>
         <div class="row row-cols-3 row-cols-md-4 g-2 g-md-4">
             <div class="col">
                 <img class="d-block mx-auto" src="<?= PROOT; ?>assets/media/partners/vilaconic.png" width="220" alt="Auchan">
