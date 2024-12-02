@@ -88,25 +88,27 @@
             <div class="col-md-6 col-xl-5 order-md-1">
                 <div class="pe-md-4 pe-xl-0">
                     <h2 class="h1 pb-2 pb-lg-3">Manufacturing</h2>
-                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean auctor cursus tortor non fermentum. Fusce ornare pulvinar nibh, sed facilisis eros congue pretium. Suspendisse et fermentum massa.</p>
-                    <div class="row row-cols-2">
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3">
-                                <img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/monitor-dark.svg" width="28" alt="Icon">
-                                <img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/monitor-light.svg" width="28" alt="Icon">
-                            </div>
-                            <h3 class="h5 mb-2">Custom websites</h3>
-                            <p class="fs-sm mb-0">Eu dignissim arcu, iaculis orci hendrerit commodo leo eget</p>
-                        </div>
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3">
-                                <img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/cloud-dark.svg" width="28" alt="Icon">
-                                <img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/cloud-light.svg" width="28" alt="Icon">
-                            </div>
-                            <h3 class="h5 mb-2">Cloud computing</h3>
-                            <p class="fs-sm mb-0">Adipiscing in aliquam iaculis  pellentesque facilisi commo</p>
-                        </div>
-                    </div>
+                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">At Peekaf, we pride ourselves on producing high-quality vegetable oil and rice that meet global standards.</p>
+                    <ul class="list-unstyled mb-4 mb-xl-5">
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Vegetable Oil Production:
+                            <br>
+                            Our oils are carefully processed using advanced techniques to preserve nutrients and maintain purity. These oils are ideal for cooking, frying, and other culinary uses, ensuring both health and taste.
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Rice Processing:
+                            <br>
+                            Peekaf processes various rice varieties, including premium basmati and long-grain rice, ensuring consistency, aroma, and taste. We use cutting-edge machinery to clean, mill, and package rice, guaranteeing freshness and quality.
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Commitment to Quality:
+                            <br>
+                            Every product is thoroughly tested and packaged to meet both local and international food safety standards.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -117,18 +119,32 @@
             <div class="col-md-6 col-xl-5 offset-xl-1">
                 <div class="ps-md-4 pe-xl-0">
                     <h2 class="h1 pb-2 pb-lg-3">Importation</h2>
-                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">More erat leo proin odio est sed sit felis facilisi integer sed congue neque turpis dictumst sit sed volutpat aliquet tortor. Adipiscing posuere dui, amet, augue nisl dictum justo, enim sed neque congue non quam ultrices interdum vitae.</p>
-                    <div class="row row-cols-2">
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3"><img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/cog-dark.svg" width="28" alt="Icon"><img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/cog-light.svg" width="28" alt="Icon"></div>
-                            <h3 class="h5 mb-2">For iOS &amp; Android</h3>
-                            <p class="fs-sm mb-0">Eu dignissim arcu, iaculis orci hendrerit commodo leo eget</p>
-                        </div>
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3"><img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/time-dark.svg" width="28" alt="Icon"><img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/time-light.svg" width="28" alt="Icon"></div>
-                            <h3 class="h5 mb-2">Speed optimization</h3>
-                            <p class="fs-sm mb-0">Adipiscing in aliquam iaculis  pellentesque facilisi commo</p>
-                        </div>
+                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">
+                        Peekaf connects Ghanaian markets with the best international suppliers.
+                        <br><br>
+                        <span class="fw-bold">Sourcing Global Excellence:</span>
+                        <br>We import premium rice varieties and vegetable oils from trusted international suppliers to offer a diverse range of options for our customers. This ensures affordability without compromising on quality.
+                        <br><br>
+                        <span class="fw-bold">Customized Solutions:</span>
+                        <br>Our import services cater to wholesalers, retailers, and institutions, meeting specific market demands.</p>
+                    </p>
+                    <h5>Why Import with Peekaf?</h5>
+                    <ul class="list-unstyled mb-4 mb-xl-5">
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Strong global partnerships
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Consistent product availability
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Competitive pricing
+                        </li>
+                    </ul>
+                    <div class="mt-auto">
+                        <a class="btn btn-outline-danger" href="<?= PROOT; ?>importation">Learn more</a>
                     </div>
                 </div>
             </div>

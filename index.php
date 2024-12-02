@@ -128,8 +128,6 @@
 			</div>
 		</section>
 
-
-		<!-- Services: Car insurance -->
 		<section class="overflow-hidden pb-5">
 			<div class="container pb-sm-3 mb-md-2 mb-lg-3">
 				<div class="row g-4">
@@ -187,7 +185,7 @@
 								<span class="fw-bold">Sourcing Global Excellence:</span>
 								<br>We import premium rice varieties and vegetable oils from trusted international suppliers to offer a diverse range of options for our customers. This ensures affordability without compromising on quality.
 								<br><br>
-								<span class="fw-bold">SCustomized Solutions:</span>
+								<span class="fw-bold">Customized Solutions:</span>
 								<br>Our import services cater to wholesalers, retailers, and institutions, meeting specific market demands.</p>
 							</p>
 							<h5>Why Import with Peekaf?</h5>
