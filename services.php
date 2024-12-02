@@ -31,7 +31,7 @@
                 <p class="text-body mb-0" style="max-width: 480px;">We are the leading provider of essential food products, offering top-notch services across manufacturing, importation, and exportation of vegetable oil and a wide variety of rice.</p>
 
                 <!-- Features -->
-                <div class="d-none d-xxl-block" style="height: 220px;"></div>
+                <!-- <div class="d-none d-xxl-block" style="height: 220px;"></div>
                 <div class="d-none d-lg-block d-xxl-none" style="height: 160px;"></div>
                 <div class="d-none d-md-block d-lg-none" style="height: 100px;"></div>
                 <div class="d-md-none" style="height: 50px;"></div>
@@ -61,18 +61,18 @@
                             <img class="d-block m-1" src="assets/img/services/v3/icons/monitor-white.svg" width="32" alt="Icon">
                         </div>
                         <h3 class="h5 ps-3 mb-0">Step by step work</h3>
-                        </div>
                     </div>
-                    <div class="col">
-                    <div class="d-flex align-items-center">
-                    <div class="position-rlative flex-shrink-0 rounded-1 overflow-hidden p-2">
-                  <div class="bg-white opacity-40 position-absolute top-0 start-0 w-100 h-100"></div>
-                  <img class="d-block m-1" src="assets/img/services/v3/icons/size-white.svg" width="32" alt="Icon">
                 </div>
-                <h3 class="h5 ps-3 mb-0">Full range of services</h3>
-              </div>
+                <div class="col">
+                    <div class="d-flex align-items-center">
+                        <div class="position-rlative flex-shrink-0 rounded-1 overflow-hidden p-2">
+                            <div class="bg-white opacity-40 position-absolute top-0 start-0 w-100 h-100"></div>
+                            <img class="d-block m-1" src="assets/img/services/v3/icons/size-white.svg" width="32" alt="Icon">
+                        </div>
+                        <h3 class="h5 ps-3 mb-0">Full range of services</h3>
+                    </div>
+                </div> -->
             </div>
-          </div>
         </div>
     </section>
 
