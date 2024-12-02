@@ -143,9 +143,6 @@
                             Competitive pricing
                         </li>
                     </ul>
-                    <div class="mt-auto">
-                        <a class="btn btn-outline-danger" href="<?= PROOT; ?>importation">Learn more</a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -158,25 +155,31 @@
             <div class="col-md-6 col-xl-5 order-md-1">
                 <div class="pe-md-4 pe-xl-0">
                     <h2 class="h1 pb-2 pb-lg-3">Exportation</h2>
-                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur neque congue aliqua dolor do amet sint velit officia amet minim mollit non deserunt ullamco est sit aliqua dolor malesuada fames ac ante ipsum.</p>
-                    <div class="row row-cols-2">
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3">
-                                <img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/monitor-dark.svg" width="28" alt="Icon">
-                                <img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/monitor-light.svg" width="28" alt="Icon">
-                            </div>
-                            <h3 class="h5 mb-2">All business niches </h3>
-                            <p class="fs-sm mb-0">Eu dignissim arcu, iaculis orci hendrerit commodo leo eget</p>
-                        </div>
-                        <div class="col">
-                            <div class="d-table bg-secondary rounded-1 p-2 mb-3">
-                                <img class="d-block d-dark-mode-none m-1" src="assets/img/services/v3/icons/size-dark.svg" width="28" alt="Icon">
-                                <img class="d-none d-dark-mode-block m-1" src="assets/img/services/v3/icons/size-light.svg" width="28" alt="Icon">
-                            </div>
-                            <h3 class="h5 mb-2">Customer focus</h3>
-                            <p class="fs-sm mb-0">Adipiscing in aliquam iaculis  pellentesque facilisi commo</p>
-                        </div>
-                    </div>
+                    <p class="pb-2 pb-lg-0 mb-4 mb-lg-5">
+                        Sharing our finest products with the world, Peekaf ensures seamless export services.
+                        <br><br>
+                        <span class="fw-bold">Premium Vegetable Oil:</span>
+                        <br>We export pure, high-grade vegetable oil to international markets, enhancing Ghana's reputation for quality.
+                        <br><br>
+                        <span class="fw-bold">High-Quality Rice:							:</span>
+                        <br>
+                        Peekaf rice varieties are highly sought after globally for their long grains, rich aroma, and exceptional taste.
+                    </p>
+                    <h5>Export Highlights:</h5>
+                    <ul class="list-unstyled mb-4 mb-xl-5">
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Adherence to international trade and food safety standards
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Efficient logistics for timely delivery
+                        </li>
+                        <li class="d-flex pb-2 mb-1">
+                            <span class="bg-danger mt-2 me-2" style="width: 10px; height: 10px; border-radius: 2px;"></span>
+                            Strengthening global partnerships with reliable supply chains
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>

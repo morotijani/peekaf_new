@@ -169,7 +169,6 @@
 			</div>
 		</section>
 
-		<!-- Services: Travel insurance -->
 		<section class="overflow-hidden pb-5">
 			<div class="container pb-sm-3 mb-md-2 mb-lg-3">
 				<div class="row g-4">
@@ -212,8 +211,6 @@
 			</div>
 		</section>
 
-
-		<!-- Services: Health insurance -->
 		<section class="overflow-hidden pb-5">
 			<div class="container pb-sm-3 mb-md-2 mb-lg-3">
 				<div class="row g-4">
