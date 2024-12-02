@@ -1,6 +1,7 @@
+    </main>
 
-<!-- Footer -->
-<footer class="footer">
+    <!-- Footer -->
+    <footer class="footer">
     	<div class="bg-primary py-4" data-bs-theme="dark">
         	<div class="container fs-lg text-body text-center">Our dedicated team of nearly 2,300 staff members is prepared to assist you. <a class="text-white" href="#">Talk to our finance agent</a></div>
       	</div>
