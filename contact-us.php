@@ -5,10 +5,27 @@ $title = 'Contact us';
 $nb = '';
 include ("includes/header.php");
 include ("includes/nav.php");
+$mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";
 
 ?>
-    <link rel="stylesheet" media="screen" href="<?= PROOT; ?>assets/css/leaflet.css">
+<style>
+    .maps-container {
+        height: 500px;
+    }
 
+    .maps-container.map-widget {
+        height: 500px;
+    }
+
+    .map {
+        height: 100% !important;
+        width: 100%;
+    }
+
+    .map:before {
+        display: none;
+    }
+</style>
 
     <!-- Contact details -->
     <section class="bg-secondary py-5">
@@ -179,26 +196,17 @@ include ("includes/nav.php");
     </section>
 
     <!-- Map-->
-    <section class="position-relative mt-5">
-        <div class="d-none d-xl-block" style="height: 570px;"></div>
-        <div class="d-none d-lg-block d-xl-none" style="height: 450px;"></div>
-        <div class="d-none d-md-block d-lg-none" style="height: 380px;"></div>
-        <div class="d-md-none" style="height:280px;"></div>
-        <div class="interactive-map position-absolute top-0 start-0 w-100 h-100" data-map-options='{
-            "center": [6.6768649, -1.6162895],
-            "zoom": 10,
-            "scrollWheelZoom": false,
-            "markers": [
-                {
-                    "position": [6.6768649, -1.6162895],
-                    "popup": "&lt;div class=&#39;p-3&#39;&gt;&lt;h6&gt;We are in Orlando, FL&lt;/h6&gt;&lt;p class=&#39;fs-sm pt-1 mt-n3 mb-0&#39;&gt;514 Magnolia St. Orlando, FL 32806&lt;/p&gt;&lt;/div&gt;"
-                }
-            ]
-            }'>
+    <section class="mt-5">
+        <div class="maps-container">
+            <iframe
+                loading="lazy"
+                allowfullscreen
+                referrerpolicy="no-referrer-when-downgrade"
+                src="https://www.google.com/maps/embed/v1/place?key=<?= $mapkey; ?>&q=Peekaf+Company+Limited" class="map">
+            </iframe> 
         </div>
     </section>
 
-	<script src="<?= PROOT; ?>assets/js/leaflet.js"></script>
 <?php 
 
     $f = "";
