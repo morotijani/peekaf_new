@@ -1,10 +1,9 @@
 <?php
 
-  require_once ('db_connection/conn.php');
-  $title = 'Home';
-  $nb = 'fixed-top';
-  include ("includes/header.php");
-  include ("includes/nav.php");
+	require_once ('db_connection/conn.php');
+	$title = 'Home';
+	$nb = 'fixed-top';
+	include ("includes/header.php");
 
 ?>
 
@@ -16,7 +15,7 @@
       	</div>
     </div>
 
-	<?php include ("inlcudes/nav.php"); ?>
+	<?php include ("includes/nav.php"); ?>
 
 	<!-- Hero slider -->
 	<section class="position-relative min-vh-100 py-5" data-bs-theme="light">
