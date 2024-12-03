@@ -7,7 +7,7 @@
 			<div class="container">
 
 				<!-- Navbar brand (Logo) -->
-				<a class="navbar-brand pe-sm-3" href="index.html">
+				<a class="navbar-brand pe-sm-3" href="<?= PROOT; ?>">
 					<span class="text-primary flex-shrink-0 me-2">
 						<img src="<?= PROOT; ?>assets/media/logo/logo.png" width="35" height="32" />
 					</span>
