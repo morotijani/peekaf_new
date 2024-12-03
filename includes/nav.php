@@ -25,7 +25,7 @@
 					</label>
 				</div>
 
-				<a class="btn btn-danger btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="" rel="noopener">
+				<a class="btn btn-danger btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="<?= PROOT; ?>contact-us">
 					Lets work together
 				</a>
 
@@ -54,7 +54,7 @@
 						</li>
 					</ul>
 					<div class="d-sm-none p-3 mt-n3">
-						<a class="btn btn-danger w-100 mb-1" href="" target="" rel="noopener">
+						<a class="btn btn-danger w-100 mb-1" href="<?= PROOT; ?>contact-us">
 							Lets work together
 						</a>
 					</div>
