@@ -67,12 +67,12 @@ $mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";
                             <h4 class="card-title mb-4">Phone</h4>
                             <ul class="list-unstyled mb-0">
                                 <li class="pb-1 mb-2">
-                                <span class="d-block fs-sm text-body-secondary mb-1">Main office</span>
-                                <a class="nav-link fs-lg p-0" href="tel:+178632256033">+1&nbsp;(786)&nbsp;322&nbsp;560&nbsp;33</a>
+                                <span class="d-block fs-sm text-body-secondary mb-1">Main office</span>  
+                                <a class="nav-link fs-lg p-0" href="tel:+971582946515">+971&nbsp;(582)&nbsp;946&nbsp;515</a>
                                 </li>
                                 <li>
-                                <span class="d-block fs-sm text-body-secondary mb-1">Reception room</span>
-                                <a class="nav-link fs-lg p-0" href="tel:+178630056044">+1&nbsp;(786)&nbsp;300&nbsp;560&nbsp;44</a>
+                                <span class="d-block fs-sm text-body-secondary mb-1">Reception room</span>  
+                                <a class="nav-link fs-lg p-0" href="tel:+233241168078">+233&nbsp;(241)&nbsp;168&nbsp;078</a>
                                 </li>
                             </ul>
                         </div>
