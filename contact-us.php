@@ -52,7 +52,7 @@ $mapkey = "AIzaSyAl7HieEr-PAcYjTI1TBy_pd9oC1-xpZaI";
                         <div class="card-body">
                             <h4 class="card-title mb-4">Address</h4>
                             <p class="fs-lg fw-medium pb-3 mb-3">135 Otumfo Osei Tutu II Blvd, Kumasi</p>
-                            <a class="btn btn-sm btn-outline-danger" href="#">
+                            <a class="btn btn-sm btn-outline-danger" target="_blank" href="https://www.google.com/maps/place/Peekaf+Company+Limited/@6.690135,-1.608681,16z/data=!4m6!3m5!1s0xfdb97429b8803c3:0x3b32d0bf707da93c!8m2!3d6.6898788!4d-1.6087883!16s%2Fg%2F11sryhrk5h?hl=en-GB&entry=ttu&g_ep=EgoyMDI0MTEyNC4xIKXMDSoASAFQAw%3D%3D">
                                 <i class="ai-map-pin me-1"></i>
                                 Get directions
                             </a>
