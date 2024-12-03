@@ -32,12 +32,7 @@
         <img class="d-block rounded-5 mb-3 mb-xl-4 mb-xxl-5" src="<?= PROOT; ?>assets/media/back-6.jpeg" alt="Image">
 
         <!-- About -->
-        <section class="container position-relative z-3" style="margin-top: -135px;">
-            <div class="rounded-5 overflow-hidden"> 
-                <div class="jarallax ratio ratio-16x9" data-jarallax data-speed="0.6">
-                    <div class="jarallax-img" style="background-image: url(assets/img/about/agency/parallax-image.jpg);"></div>
-                </div>
-            </div>
+        <section class="container position-relative z-3" style="">
             <div class="row pt-5 mt-n2 mt-sm-0 mt-md-2 mt-lg-4 mt-xl-5">
                 <div class="col-md-6 col-lg-5">
                     <div class="fs-sm text-uppercase mb-3">Who we are?</div>

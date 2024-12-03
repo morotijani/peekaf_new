@@ -19,7 +19,7 @@
 							</span>
 							<span class="text-nav">Peekaf</span>
 						</a>
-						<p class="mb-4 pb-lg-3 fs-xs text-body-secondary" style="max-width: 306px;">Morbi et massa fames ac scelerisque sit commodo dignissim faucibus vel quisque proin lectus laoreet sem adipiscing sollicitudin erat massa tellus lorem enim aenean phasellus in hendrerit</p>
+						<p class="mb-4 pb-lg-3 fs-xs text-body-secondary" style="max-width: 306px;">Your trusted partner in delivering premium-quality food products to homes and businesses locally and globally.</p>
 						<div class="mt-n3 ms-n3">
 							<a class="btn btn-secondary btn-icon btn-sm btn-facebook rounded-circle mt-3 ms-3" href="https://web.facebook.com/peekaf" aria-label="Facebook">
 								<i class="ai-facebook"></i>
