@@ -66,7 +66,7 @@
 										<a class="nav-link p-0" href="<?= PROOT; ?>importation#">Importation</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="<?= PROOT; ?>products#">Products</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>products">Products</a>
 									</li>
 								</ul>
 							</div>
