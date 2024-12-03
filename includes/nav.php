@@ -52,6 +52,9 @@
 						<li class="nav-item">
 							<a class="nav-link" href="<?= PROOT; ?>contact-us">Contact us</a>
 						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?= PROOT; ?>faq">FAQ</a>
+						</li>
 					</ul>
 					<div class="d-sm-none p-3 mt-n3">
 						<a class="btn btn-danger w-100 mb-1" href="<?= PROOT; ?>contact-us">

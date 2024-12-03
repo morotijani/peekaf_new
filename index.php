@@ -289,7 +289,7 @@
 					</div>
 					<h3 class="h5">Don't see the answer you need?</h3>
 					<p class="mb-sm-4">That's ok. Just drop a message and we will get back to you ASAP.</p>
-					<a class="btn btn-danger" href="#">Contact us</a>
+					<a class="btn btn-danger" href="<?= PROOT; ?>contact-us">Contact us</a>
 				</div>
 				<div class="col-md-8 col-lg-7">
 					<div class="ps-md-3 ps-lg-4 ps-xl-5">
@@ -299,61 +299,55 @@
 						<div class="accordion" id="faq">
 							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
 								<h3 class="accordion-header">
-									<button class="accordion-button fs-6 py-3 px-0" type="button" data-bs-toggle="collapse" data-bs-target="#real-estate" aria-expanded="true" aria-controls="real-estate">How often should I review and update my insurance coverage?</button>
+									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#finance1" aria-expanded="false" aria-controls="finance1">What does Peekaf Company Limited specialize in?</button>
+								</h3>
+								<div class="accordion-collapse collapse" id="finance1" data-bs-parent="#faq">
+									<div class="accordion-body fs-sm">
+										<p>Peekaf specializes in the manufacturing, importation, and exportation of high-quality vegetable oil and a variety of rice, including premium basmati and long-grain rice.</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
+								<h3 class="accordion-header">
+									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#finance2" aria-expanded="false" aria-controls="finance2">Where is Peekaf Company Limited located?</button>
+								</h3>
+								<div class="accordion-collapse collapse" id="finance2" data-bs-parent="#faq">
+									<div class="accordion-body fs-sm">
+										<p>We are based in Ghana, with a focus on both local and international markets. For specific address details, please navigate to our contact us page.</p>
+									</div>
+								</div>
+							</div>
+							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
+								<h3 class="accordion-header">
+									<button class="accordion-button fs-6 py-3 px-0" type="button" data-bs-toggle="collapse" data-bs-target="#real-estate" aria-expanded="true" aria-controls="real-estate">What products does the company offer?</button>
 								</h3>
 								<div class="accordion-collapse collapse show" id="real-estate" data-bs-parent="#faq">
 									<div class="accordion-body fs-sm">
-										<p>It's essential to periodically review and update your insurance coverage to ensure it meets your current needs. Here are some guidelines for different types of insurance:</p>
+										<p>Our main products include:</p>
 										<ul class="mb-0">
-											<li><strong>Car tnsurance:</strong> Review your policy annually or when you experience significant life changes, such as buying a new vehicle, moving to a new location, or a change in your driving habits.</li>
-											<li><strong>Health insurance:</strong> Review your health insurance coverage during your open enrollment period or after major life events like marriage, having a child, or experiencing a change in income.Health Insurance: Review your health insurance coverage during your open enrollment period or after major life events like marriage, having a child, or experiencing a change in income.</li>
-											<li><strong>Life Insurance:</strong> Review your life insurance coverage whenever you have a significant life change, such as marriage, the birth of a child, or when you have new financial responsibilities.</li>
+											<li>Premium vegetable oil for cooking and frying</li>
+											<li>Various rice varieties, such as basmati, long-grain, and other high-quality options.</li>
 										</ul>
 									</div>
 								</div>
 							</div>
 							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
 								<h3 class="accordion-header">
-									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tech" aria-expanded="false" aria-controls="tech">How can I request a quote for insurance coverage?</button>
+									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#finance3" aria-expanded="false" aria-controls="finance3">Do you supply products in bulk?</button>
 								</h3>
-								<div class="accordion-collapse collapse" id="tech" data-bs-parent="#faq">
+								<div class="accordion-collapse collapse" id="finance3" data-bs-parent="#faq">
 									<div class="accordion-body fs-sm">
-										<p>To request a quote for insurance coverage, you have a few options:</p>
-										<ul class="mb-0">
-											<li>You can contact our customer service team by phone, and they will guide you through the process and provide a personalized quote.</li>
-											<li>You can visit our website and use our online quote request form. Simply provide the required information, and you'll receive a quote shortly.</li>
-											<li>Visit one of our local branches and speak with an agent who can assist you in person.</li>
-										</ul>
+										<p>Yes, but we do not cater to wholesalers, retailers. But countries and institutions, yes, offering bulk orders tailored to meet their specific needs.</p>
 									</div>
 								</div>
 							</div>
 							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
 								<h3 class="accordion-header">
-									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#finance" aria-expanded="false" aria-controls="finance">What should I do in case of medical emergency?</button>
+									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#finance4" aria-expanded="false" aria-controls="finance4">Do you export products internationally?</button>
 								</h3>
-								<div class="accordion-collapse collapse" id="finance" data-bs-parent="#faq">
+								<div class="accordion-collapse collapse" id="finance4" data-bs-parent="#faq">
 									<div class="accordion-body fs-sm">
-										<p>In the event of a medical emergency during your stay, you must contact emergency assistance listed on your health insurance card before seeking care. In the event that you cannot contact emergency assistance prior to receiving treatments, you can ask someone to call for you, or call as soon as it is possible.</p>
-										<p class="mb-0">Go to the nearest medical facility or hospital as soon as possible if it's safe to do so. Ensure you receive the necessary medical care without delay. After ensuring your safety and receiving initial medical care, please contact our 24/7 emergency hotline at + 1 526 220 0444. Our dedicated team is here to assist you during your medical emergency.</p>
-									</div>
-								</div>
-							</div>
-							<div class="accordion-item bg-transparent mb-n1 mb-xl-1">
-								<h3 class="accordion-header">
-									<button class="accordion-button fs-6 py-3 px-0 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#medicine" aria-expanded="false" aria-controls="medicine">What factors influence the cost of my insurance premium?</button>
-								</h3>
-								<div class="accordion-collapse collapse" id="medicine" data-bs-parent="#faq">
-									<div class="accordion-body fs-sm">
-										<p>The cost of your insurance premium can be influenced by several factors, including but not limited to:</p>
-										<ul>
-											<li>The type of insurance coverage you need.</li>
-											<li>Your driving history (for auto insurance).</li>
-											<li>Your health status (for health insurance).</li>
-											<li>The coverage limits and deductibles you choose.</li>
-											<li>Any additional coverage or endorsements you add to your policy.</li>
-											<li>Your credit score (in some cases).</li>
-										</ul>
-										<p class="mb-0">Keep in mind that the specific factors that affect your premium may vary depending on the type of insurance you're looking to purchase.</p>
+										<p>Absolutely! We export our products globally, ensuring that the quality of our goods reaches international markets.</p>
 									</div>
 								</div>
 							</div>

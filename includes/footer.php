@@ -47,7 +47,7 @@
 										<a class="nav-link p-0" href="<?= PROOT; ?>contact-us">Contact us</a>
 									</li>
 									<li class="nav-item mb-2">
-										<a class="nav-link p-0" href="<?= PROOT; ?>faq#">FAQ</a>
+										<a class="nav-link p-0" href="<?= PROOT; ?>faq">FAQ</a>
 									</li>
 									<li class="nav-item mb-2">
 										<a class="nav-link p-0" href="<?= PROOT; ?>news#">Latest news</a>
